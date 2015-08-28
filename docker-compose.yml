@@ -1,0 +1,24 @@
+web:
+  restart: always
+  build: web
+  ports:
+    - 80:80
+    - 1500:1500
+  volumes:
+    - ~/Lab/Omega:/var/www
+    #- ~/Docker/web/conf:/etc/apache2/sites-enabled
+  #links:
+    #- db:db
+    #- nodejs:nodejs
+
+#db:
+#  restart: always
+#  image: mysql:latest
+#  environment:
+#    - MYSQL_ROOT_PASSWORD=1234
+#  volumes:
+#    - /var/lib/boot2docker/mysql:/var/lib/mysql
+
+#nodejs:
+#  restart: always
+#  image: google/nodejs
