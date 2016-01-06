@@ -1,5 +1,7 @@
 # Docker - web development
 
+[![Join the chat at https://gitter.im/CodzDev/Docker](https://badges.gitter.im/CodzDev/Docker.svg)](https://gitter.im/CodzDev/Docker?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repo contains many containers for web development and all with simplicity.
 
 ## Web
