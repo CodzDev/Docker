@@ -1,3 +1,5 @@
+🚨 This project is no longer updated ...
+
 # Docker - web development
 
 This repo contains many containers for web development and all with simplicity.
@@ -46,7 +48,3 @@ Starting a web container, changing the `DocumentRoot` from `apache2` :
 Link your web container to mysql container after create `db` container :
 
 `docker run --name {name} --link db -p 80:80 -v {path}:/var/www -d codzdev/web`
-
-## Nodejs
-
-**COMING SOON ..**
